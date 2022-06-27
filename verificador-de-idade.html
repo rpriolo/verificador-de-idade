@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./verificador-de-idade.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <form>
+            <div id="div-datanascimento">
+                <label for="data-nascimento" id="label-data-nascimento">Ano de nascimento:
+                    <input type="date" name="data-nascimento" id="data-nascimento" min="1">
+                </label>
+            </div>
+            <div id="div-sexo">
+                <label id="label-sexo">Sexo:</label>
+                <input type="radio" name="campo-sexo" id="masculino" value="masc" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="campo-sexo" id="feminino" value="fem">
+                <label for="feminino">Feminino</label>
+            </div>
+            <div id="div-botao">
+                <input type="button" id="botao-verificar" value="Verificar">
+            </div>
+            <div id="div-idade"></div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Criado por Renato Priolo</p>
+    </footer>
+
+    <script src="./verificador-de-idade.js"></script>
+</body>
+</html>
