@@ -1,5 +1,7 @@
 body {
-    font-family: 'JetBrains Mono';
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
     background-color: rgb(119, 175, 199);
     margin: 50px 0 0 0;
 }
@@ -30,7 +32,7 @@ section {
 }
 
 #botao-verificar {
-    font-family: 'JetBrains Mono';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     width: 50%;
     height: 40px;
